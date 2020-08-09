@@ -1308,19 +1308,15 @@ input[type="submit"]:hover {
 }
 .busket {
 	display: none;
-	width: 3rem;
-	position: absolute;
+	width: 2.3rem;
+	height: 2.3rem;
+	margin-left: 2rem;
+	/*position: absolute;
 	right: 2rem;
-	top: 6.8rem;
-	opacity: 0.6;
-}
-@media all and (min-width: 1200px) {
-	.busket {
-		top: 5.8rem;
-	}
-}
-.busket img{
-	width: 100%;
+	top: 3.8rem;*/
+	background-image: url(../img/cart.png);
+	background-size: cover;
+	/*background-color: transparent;*/
 }
 
 @media all and (max-width: 1199px) {
@@ -1445,6 +1441,13 @@ input[type="submit"]:hover {
 	.gallery-box-2 {
 		margin-top: 0;
 	}
+	.email p, .tel p {
+		display: none;
+	}
+	.email {
+		margin-left: 2rem;
+		padding-left: 0;
+	}
 }
 
 
@@ -1464,9 +1467,9 @@ input[type="submit"]:hover {
 	.cont_head {
 		margin-bottom: 1em;
 	}
-	.email {
+	/*.email {
 		display: none;
-	}
+	}*/
 	.team-container {
 		justify-content: space-around;
 	}
@@ -1510,11 +1513,6 @@ input[type="submit"]:hover {
 		display: none;
 	}
 }
-@media all and (max-width: 450px) {
-	.tel {
-		display: none;
-	}
-}
 
 @media all and (min-width: 321px) and (max-width: 450px) {
 	.team-container {
@@ -1539,6 +1537,9 @@ input[type="submit"]:hover {
 	}
 	.popup {
 		right:5.2rem;
+	}
+	.logo_second {
+		width: 0;
 	}
 }
 @media all and (max-width: 320px) {
@@ -1576,5 +1577,22 @@ input[type="submit"]:hover {
 @media all and (max-width: 649px) {
 	.cont-box {
 		justify-content: space-around;
+	}
+}
+
+@media all and (max-width: 450px) {
+	.email, .tel {
+		display: none;
+	}
+}
+
+@media all and (min-width: 321px) and (max-width: 449px) {
+	.busket {
+		margin-left: 5rem;
+	}
+}
+@media all and (min-width: 1024px) {
+	.busket {
+		margin-left: 4rem;
 	}
 }
