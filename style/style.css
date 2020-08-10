@@ -1178,7 +1178,7 @@ input[type="submit"]:hover {
 .similar {
 	width: 100%;/*1920px*/
 	min-height: 436px;
-	margin-top: 7rem;
+	margin-top: 6rem;
 	background-color: #ccc;
 }
 
@@ -1219,6 +1219,7 @@ input[type="submit"]:hover {
 	justify-content: space-around;
 	align-items: center;
 	margin-top: 40px;
+	margin-bottom: 4rem;
 }
 .product_left div img{
 	max-width: 100px;
@@ -1284,10 +1285,6 @@ input[type="submit"]:hover {
 	font-weight: 300;
 	line-height: 1.1rem;
 	letter-spacing: 0.12px;
-}
-
-.product_right {
-	position: relative;
 }
 
 .popup {
