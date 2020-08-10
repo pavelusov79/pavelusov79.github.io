@@ -1288,20 +1288,42 @@ input[type="submit"]:hover {
 }
 
 .popup {
-	position: absolute;
-	right: 8.4rem;
-	top: 5.9rem;
 	max-width: 320px;
-	min-height: 3.2rem;
-	font-size: 1.2rem;
-	width: 50%;
-	text-align: center;
-	background-color: #fff;
+	height: 3.8rem;
+	font-size: 1.4rem;
+	width: 70%;
 	border: 1px solid gray;
 	border-radius: 0.7rem;
 	color: black;
 	display: flex;
 	align-items: center;
+	justify-content: center;
+	margin: 22px auto 0 auto;
+}
+@media all and (min-width: 1400px) {
+	.popup {
+		margin: 21px auto 0 auto;
+	}
+}
+@media all and (max-width: 1024px) {
+	.popup {
+		margin: 23px auto 0 auto;
+	}
+}
+@media all and (max-width: 668px) {
+	.popup {
+		margin: 24px auto 0 auto;
+	}
+}
+@media all and (max-width: 567px) {
+	.popup {
+		margin: 25px auto 0 auto;
+	}
+}
+@media all and (max-width: 376px) {
+	.popup {
+		margin: 26px auto 0 auto;
+	}
 }
 .busket {
 	display: none;
@@ -1334,11 +1356,6 @@ input[type="submit"]:hover {
 @media all and (max-width: 740px) {
 	.gallery-container {
 		width: 64%;
-	}
-}
-@media all and (max-width: 870px) {
-	.popup {
-		right:5.7rem;
 	}
 }
 
@@ -1455,9 +1472,7 @@ input[type="submit"]:hover {
 	html {
 		font-size: 10px;
 	}
-	.popup {
-		right:6.8rem;
-	}
+	
 	.subscribe input[type="text"] {
 		width: 180px;
 	}
@@ -1535,9 +1550,7 @@ input[type="submit"]:hover {
 		width: 78%;
 		min-width: 195px;
 	}
-	.popup {
-		right:5.2rem;
-	}
+	
 	.logo_second {
 		width: 0;
 	}
