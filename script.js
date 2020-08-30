@@ -53,7 +53,7 @@ $(window).scroll(function() {
 
 var news = document.querySelector(".show_news");
 var news_p = document.querySelectorAll(".show_text");
-if(path[path.length-1] == "index.html") {
+if(path[path.length-1] == "index.html" || path[path.length-1] =='') {
 	news.addEventListener("click", (e) => {
 		for(var i = 0; i < news_p.length; i++) {
 			news_p[i].children[1].className = "hide";
