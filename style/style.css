@@ -595,7 +595,8 @@ a.serv-img, a.serv-img-right {
 	margin-top: 6rem;
 	width: 100%; /*1920px*/
 	padding-bottom: 3em;
-	background: url(../img/testimonial.png);
+	background: url(../img/main.png), #8f9098;
+	background-blend-mode: multiply;
 	background-size: cover;
 	background-position-x: center;
 }
