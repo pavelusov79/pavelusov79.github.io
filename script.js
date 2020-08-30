@@ -56,10 +56,10 @@ var news_p = document.querySelectorAll(".show_text");
 if(path[path.length-1] == "index.html") {
 	news.addEventListener("click", (e) => {
 		for(var i = 0; i < news_p.length; i++) {
-			news_p[i].children[1].style.display = "none";
+			news_p[i].children[1].className = "hide";
 			news_p[i].children[0].innerHTML = "&#43";
 		}
-		e.target.children[1].style.display = "block";
+		e.target.children[1].className = "text_r";
 		e.target.children[0].innerHTML = "&#45";
 	});
 }
