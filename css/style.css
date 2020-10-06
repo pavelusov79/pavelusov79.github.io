@@ -1446,18 +1446,19 @@ input[type="submit"]:hover {
 }
 .prev-icon3:before {
 	content: '<';
-	font-size: 18px;
+	font-size: 1.4rem;
 	color: gray;
 }
 .next-icon3:before {
 	content: '>';
-	font-size: 18px;
+	font-size: 1.4rem;
 	color: gray;
 }
 .row-person {
 	padding: 10px;
 	border: 1px solid #ccc;
 	border-radius: 15px;
+	margin: 0;
 }
 
 /* Media запросы */
@@ -1548,6 +1549,7 @@ input[type="submit"]:hover {
 		transform-origin: top center;
 		transform: scale(0) translateY(-10%);
 		opacity: 0;
+		z-index: 999;
 	}
 	.menu ul.active {
 		/*top: 75px;*/
