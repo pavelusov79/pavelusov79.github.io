@@ -141,8 +141,7 @@ body {
 }
 
 .menu ul {
-	width: 572px;
-	margin: 0 auto;
+	text-align: center;
 	position: relative;
 	top: 12px;
 }
